@@ -14,8 +14,19 @@
  *= require_self
  */
 
- body { padding-top: 100px; background-color: #E6BDB5;}
+ body {
+  background-image: url("ok.jpg");
+  background-size: 100% 100%;
+   padding-top: 100px;
+  background-color: #E6BDB5;
+    color: black;}
  footer { margin-top: 100px; }
  table, td, th { vertical-align: middle; border: none; }
  th { border-bottom: 1px solid #DDD; }
 img  {width: 100px}
+a {color: white;}
+a:visited {
+    color: white;
+}
+td {color: white;
+font-size: 17px}
